@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href= "./images/icons8-todo-list-96.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0415fb2d21.js" crossorigin="anonymous"></script>
+    <title>Todo App</title>
+</head>
+<body>
+    <main>
+        <div class="wrap">
+            <section class="heading">
+                <p class="title">Todoski</p>
+                <p class="subtitle">Manage and Search Your Pending Task in Clicks</p>
+            </section>
+
+            <section class="task-manager">
+                <div class="search-box">
+                    <form class="search">
+                        <input type="text" name="task" placeholder="Search Task" autocomplete="off" class="inOne">
+                        <i class="bi bi-x-circle reset"></i>
+                    </form>
+
+                </div>
+                <div class="task-box">
+                  <ul class="task">
+                    <li>
+                        <span>Task 1</span>
+                        <i class="bi bi-trash delete"></i>
+
+                    </li>
+                    <li>
+                        <span>Task 2</span>
+                        <i class="bi bi-trash delete"></i>
+
+                    </li>
+                    <li>
+                        <span>Task 3</span>
+                        <i class="bi bi-trash delete"></i>
+
+                    </li>
+                  </ul>
+                  <form class="add">
+                  <input type="text" name="task" placeholder="Add task" autocomplete="off">
+                  <input type="submit" value="Add">
+                </form>
+                </div>
+
+                <div class="message">
+                   <span> You have 3 pending Task</span>
+                   <button class="clear">Clear All</button>
+                </div>
+
+            </section>
+
+
+        </div>
+    </main>
+
+ <script src="script.js"></script>
+    
+</body>
+</html>
